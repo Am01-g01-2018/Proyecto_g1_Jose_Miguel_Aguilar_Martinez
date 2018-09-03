@@ -1,0 +1,20 @@
+#contendor{
+    background-color: rgb(220, 245, 235);
+    width: 90%;
+    height: 1000px;
+    margin-left: 5%;
+}
+header{
+    width: 85%;
+    height: 100px;
+    background-color: aquamarine;
+    margin-left: 7%;
+    
+    
+}
+nav{
+    width: 85%;
+    height: 75px;
+    background-color: rgba(36, 146, 209, 0.562);
+    margin-left: 7%;
+}
