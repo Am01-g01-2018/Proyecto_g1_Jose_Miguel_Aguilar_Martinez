@@ -1,20 +1,110 @@
-#contendor{
-    background-color: rgb(220, 245, 235);
-    width: 90%;
-    height: 1000px;
-    margin-left: 5%;
+body{
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("../img/curio.jpg");
+    background-repeat: no-repeat;
+    
+    
 }
+
 header{
-    width: 85%;
-    height: 100px;
-    background-color: aquamarine;
-    margin-left: 7%;
-    
-    
+    width: 100%;
+    background-color: rgba(40, 158, 179, 0.979);
+
+   
+}
+
+#bt_menu{
+    display: none;
 }
 nav{
-    width: 85%;
-    height: 75px;
-    background-color: rgba(36, 146, 209, 0.562);
-    margin-left: 7%;
+    background-color: blueviolet;
+}
+
+header label{
+    display: none;
+    width: 10%;
+    height: 10%;
+    padding: 10px;
+    
+}
+
+header label:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.3)
+}
+
+.menu ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.menu li:hover{
+    background-color: rgba(0, 0, 0, 0.3)
+}
+
+.menu li a {
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+article{
+    
+    height: 300px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    
+
+}
+#i1{
+    width: 15%;
+    height: 90px;
+    margin-left: 40%;
+}
+h1{
+    text-align: center;
+}
+
+section{
+    width: 50%;
+    height: 500px;
+    
+    float: left;
+    
+}
+.i2{
+    margin-left: 30%;
+}
+#s2{
+    width: 50%;
+    height: 500px;
+    
+    float: left;
+}
+#l1{
+    margin-left: 35%;
+}
+aside{
+    width: 50%;
+    height: 500px;
+     
+    float: left;
+}
+#l3{
+    width: 40%;
+    height: 250px;
+    margin-left: 27%;
+}
+#a1{
+    width: 50%;
+    height: 500px;
+    
+    float: left;  
 }
